@@ -39,17 +39,17 @@ Validation __file-uploaded-in-current-session__ ships with the package. Use this
 
 Add the following line to you composer.json
 ```
-"zotyo/ajax-file-uploader": "dev-master"
+"fzsatti/zsotyos-ajax-file-uploader": "dev-master"
 ```
 
 After downloading the package, add PackageServiceProvider to the providers array of your config/app.php
 ```
-Zotyo\AjaxFileUploader\PackageServiceProvider::class
+Fzsatti\ZotyosAjaxFileUploader\PackageServiceProvider::class
 ```
 
 Finally you should publish the config & assets of the package.
 ```
-php artisan vendor:publish --provider="Zotyo\AjaxFileUploader\PackageServiceProvider"
+php artisan vendor:publish --provider="Fzsatti\ZotyosAjaxFileUploader\PackageServiceProvider"
 ```
 This will create a *file-uploader.php* in your config directory.
 
