@@ -1,5 +1,5 @@
 {
-        "name": "zotyo/ajax-file-uploader",
+        "name": "fzsatti/zotyos-ajax-file-uploader",
         "description": "Upload your files separately then just attach the uploaded file's id to your form",
         "authors": [
                 {
@@ -12,7 +12,7 @@
         },
         "autoload": {
                 "psr-4": {
-                        "Zotyo\\AjaxFileUploader\\": "src/"
+                        "Fzsatti\\ZotyosAjaxFileUploader\\": "src/"
                 }
         },
         "minimum-stability": "dev"
