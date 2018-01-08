@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RedirectMatch 404 \.json$
+</IfModule>

@@ -1,0 +1,19 @@
+{
+        "name": "zotyo/ajax-file-uploader",
+        "description": "Upload your files separately then just attach the uploaded file's id to your form",
+        "authors": [
+                {
+                        "name": "Nagy Zoltan",
+                        "email": "nagy.zotyoka@gmail.com"
+                }
+        ],
+        "require": {
+                "ramsey/uuid": "^3.0"
+        },
+        "autoload": {
+                "psr-4": {
+                        "Zotyo\\AjaxFileUploader\\": "src/"
+                }
+        },
+        "minimum-stability": "dev"
+}
