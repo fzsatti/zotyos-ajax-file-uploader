@@ -12,7 +12,7 @@
         },
         "autoload": {
                 "psr-4": {
-                        "Fzsatti\\ZotyosAjaxFileUploader\\": "src/"
+                        "Zotyo\\AjaxFileUploader\\": "src/"
                 }
         },
         "minimum-stability": "stable"
